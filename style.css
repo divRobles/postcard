@@ -1,0 +1,85 @@
+* {
+	padding: 3px;
+	min-height: 10px;
+	overflow: hidden;
+}
+body {
+	background: black;
+}
+.container {
+	background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-header h1 {
+	width: 90%;
+	margin: 0;
+}
+.postcard-body {
+	width: 100%;
+	height: 50%;
+	display: flex;
+}
+
+p {
+	margin: 0;
+	width: 100%;
+	font-size: 0.5em;
+	overflow: hidden;
+}
+.p1 {
+	margin-top: 0;
+	padding-right: 2px;
+}
+.p2 {
+	margin-top: 5x;
+}
+
+.body-left,
+.body-right {
+	padding: 40px 12px 5px 5px;
+	height: 100%;
+	width: 100%;
+}
+
+.body-right input {
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+}
+
+.body-right input:focus{
+    outline: none;
+}
+
+.body-right input::placeholder{
+    color: black;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.postcard-footer button {
+	white-space: nowrap;
+	font-size: 0.2em;
+	width: 60px;
+	height: 20px;
+	padding: 2px;
+
+    border: none;
+    border-radius: 25px;
+}
